@@ -1,10 +1,10 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
     selector: 'app-parent-to-child-comm',
     template: `
         <h2>
-            {{"Hello : " + parentData}}
+            {{"Hello : " + pData}}
         </h2>
     `,
     styles: []
